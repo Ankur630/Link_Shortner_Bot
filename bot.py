@@ -18,7 +18,7 @@ app = Client("bitlybot" ,bot_token = TOKEN ,api_id = API_ID ,api_hash = API_HASH
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client,message):
-  await message.reply_text(f"Hello {message.from_user.first_name}\nHello i am bit.ly short link genrator\n\nMade with ❤️ by @its_Prince", reply_to_message_id = message.message_id)
+  await message.reply_text(f"Hello {message.from_user.first_name}\nHello i am bit.ly short link genrator\n\nMade with ❤️ by @ANKUR_PRO KOI TYPE KA BOT BANWANA HO DM KRO PAYTM KA CHOR K API KEY NHI H ABHI😂", reply_to_message_id = message.message_id)
   
 @app.on_message(filters.private & filters.regex("http|https"))
 async def Bitly(client,message):
